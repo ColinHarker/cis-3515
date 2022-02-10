@@ -9,7 +9,7 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 
-class MainActivity : AppCompatActivity() {
+class ColorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
