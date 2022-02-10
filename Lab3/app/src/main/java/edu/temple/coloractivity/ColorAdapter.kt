@@ -42,8 +42,9 @@ class ColorAdapter(_context: Context, _colors: Array<String>) : BaseAdapter() {
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val view = getView(position, convertView, parent)
-
-        view.setBackgroundColor(Color.parseColor(colors[position]))
+        if(position > 0) {
+            view.setBackgroundColor(Color.parseColor(colors[position]))
+        }
 
         return view
     }
