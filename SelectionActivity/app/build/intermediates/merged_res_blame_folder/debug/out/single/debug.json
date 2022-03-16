@@ -1,7 +1,19 @@
 [
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_my_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-mdpi\\my_ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_my_ic_launcher.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-mdpi\\my_ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_leapard.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\leapard.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_my_ic_launcher.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\my_ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -12,12 +24,24 @@
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_my_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-hdpi\\my_ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_my_ic_launcher.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xhdpi\\my_ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_panda.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\panda.jpg"
     },
     {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_cute_dog.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\cute_dog.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_my_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\my_ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -56,6 +80,10 @@
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\fox_man.jpg"
     },
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_my_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\my_ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_giraffe.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\giraffe.jpg"
     },
@@ -72,8 +100,16 @@
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\layout\\activity_display.xml"
     },
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_my_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\my_ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_possom_man.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\possom_man.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_my_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xhdpi\\my_ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_dragon_gheko.jpg.flat",
@@ -88,12 +124,28 @@
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_my_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\my_ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_frog.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\frog.jpg"
     },
     {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_my_ic_launcher.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\my_ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_my_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\my_ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_flamingo.jpg.flat",
         "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\drawable\\flamingo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_my_ic_launcher.png.flat",
+        "source": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\src\\main\\res\\mipmap-hdpi\\my_ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Colin\\Documents\\GitHub\\cis-3515\\SelectionActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

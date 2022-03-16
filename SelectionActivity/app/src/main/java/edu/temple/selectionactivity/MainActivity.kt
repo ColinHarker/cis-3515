@@ -12,17 +12,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val myArray = this.resources.getStringArray(R.array.string_array_name)
+
         val images = arrayOf(
-            ImageObject(R.drawable.antelope, "Antelope"),
-            ImageObject(R.drawable.cute_dog, "Cute Dog"),
-            ImageObject(R.drawable.dragon_gheko, "Dragon Gecko"),
-            ImageObject(R.drawable.flamingo, "Flamingo"),
-            ImageObject(R.drawable.fox_man, "Fox Man"),
-            ImageObject(R.drawable.frog, "Frog"),
-            ImageObject(R.drawable.giraffe, "Giraffe"),
-            ImageObject(R.drawable.leapard, "Leopard"),
-            ImageObject(R.drawable.panda, "Panda"),
-            ImageObject(R.drawable.possom_man, "Possum Man")
+            ImageObject(R.drawable.antelope, myArray[0]),
+            ImageObject(R.drawable.cute_dog, myArray[1]),
+            ImageObject(R.drawable.dragon_gheko, myArray[2]),
+            ImageObject(R.drawable.flamingo, myArray[3]),
+            ImageObject(R.drawable.fox_man, myArray[4]),
+            ImageObject(R.drawable.frog, myArray[5]),
+            ImageObject(R.drawable.giraffe, myArray[6]),
+            ImageObject(R.drawable.leapard, myArray[7]),
+            ImageObject(R.drawable.panda, myArray[8]),
+            ImageObject(R.drawable.possom_man, myArray[9])
         )
 
         val myRecyclerViewFunc = {imageObject:ImageObject ->

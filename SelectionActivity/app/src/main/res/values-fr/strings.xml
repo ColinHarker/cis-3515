@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Activité de sélection</string>
+    <string name="click_image_below_to_view">Cliquez sur l'image ci-dessous pour voir</string>
+    <string-array
+        name="string_array_name">
+        <item>Antilope</item>
+        <item>Chien mignon</item>
+        <item>Gecko-dragon</item>
+        <item>Flamant</item>
+        <item>Homme renard</item>
+        <item>Grenouille</item>
+        <item>Girafe</item>
+        <item>Léopard</item>
+        <item>Panda</item>
+        <item>Homme possum</item>
+    </string-array>
+</resources>

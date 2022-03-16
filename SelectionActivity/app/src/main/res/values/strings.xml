@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SelectionActivity</string>
+    <string name="click_image_below_to_view">Click image below to view</string>
+    <string-array
+        name="string_array_name">
+        <item>Antelope</item>
+        <item>Cute Dog</item>
+        <item>Dragon Gecko</item>
+        <item>Flamingo</item>
+        <item>Fox Man</item>
+        <item>Frog</item>
+        <item>Giraffe</item>
+        <item>Leopard</item>
+        <item>Panda</item>
+        <item>Possum Man</item>
+    </string-array>
 </resources>
