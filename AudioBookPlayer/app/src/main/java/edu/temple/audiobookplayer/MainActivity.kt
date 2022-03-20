@@ -2,12 +2,13 @@ package edu.temple.audiobookplayer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.ViewModelProvider
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var bookViewModel: BookViewModel;
-    var twoFragment = false;
+    var twoFragment : Boolean = false;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,13 +28,15 @@ class MainActivity : AppCompatActivity() {
         books.add(Book("The Da Vinci Code","Dan Brown"))
 
         bookViewModel = ViewModelProvider(this).get(BookViewModel::class.java)
+        twoFragment = findViewById<View>(R.id.fragmentContainerView2) != null;
 
         val bookListFragment = BookListFragment.newInstance(books)
 
-        if(twoFragment){
+        if(twoFragment && supportFragmentManager.findFragmentById(R.id.fragmentContainerView1) is BookDetailsFragment){
             supportFragmentManager.popBackStack()
+        }
 
-        } else{
+        if (!twoFragment && twoFragment && supportFragmentManager.findFragmentById(R.id.fragmentContainerView1) is BookDetailsFragment) {
             if (ViewModelProvider(this).get(BookViewModel::class.java).getBook().value?.title != ""
                 && !bookViewModel.isEmpty()) {
                 if (!twoFragment) {
@@ -51,6 +54,12 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+        }
+
+        if(twoFragment){
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainerView2, BookDetailsFragment())
+                .commit()
         }
 
         if (savedInstanceState == null) {
