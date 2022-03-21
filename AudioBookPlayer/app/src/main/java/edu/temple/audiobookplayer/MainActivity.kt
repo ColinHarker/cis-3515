@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), BookListFragment.LayoutInterface {
 
     lateinit var bookViewModel: BookViewModel;
     var twoFragment : Boolean = false;
@@ -39,20 +39,7 @@ class MainActivity : AppCompatActivity() {
         if (!twoFragment && twoFragment && supportFragmentManager.findFragmentById(R.id.fragmentContainerView1) is BookDetailsFragment) {
             if (ViewModelProvider(this).get(BookViewModel::class.java).getBook().value?.title != ""
                 && !bookViewModel.isEmpty()) {
-                if (!twoFragment) {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.fragmentContainerView1, BookDetailsFragment())
-                        .addToBackStack(null)
-                        .commit()
-                }
-                else{
-                    if(supportFragmentManager.findFragmentById(R.id.fragmentContainerView2) == null) {
-                        supportFragmentManager.beginTransaction()
-                            .replace(R.id.fragmentContainerView2, BookDetailsFragment())
-                            .addToBackStack(null)
-                            .commit()
-                    }
-                }
+                selectionMade()
             }
         }
 
@@ -66,6 +53,23 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragmentContainerView1, bookListFragment)
                 .commit()
+        }
+    }
+
+    override fun selectionMade() {
+        if (!twoFragment) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainerView1, BookDetailsFragment())
+                .addToBackStack(null)
+                .commit()
+        }
+        else{
+            if(supportFragmentManager.findFragmentById(R.id.fragmentContainerView2) == null) {
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragmentContainerView2, BookDetailsFragment())
+                    .addToBackStack(null)
+                    .commit()
+            }
         }
     }
 
